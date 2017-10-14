@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial;
+}
+
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+
+.messages {
+  margin-top: -50px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/*---------------------------------------*/
+
+.well{
+ 	margin-bottom: 22px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.bunner {
+	width: 100%;
+	display: block;
+	padding-bottom: 70px;
+	margin-top: -30px;
+}
+
+.bunner> .img-bunner {
+	width: 100%;
+	display: block;
+}
+
+h1.main-title {
+	padding-bottom: 50px;
+	text-align: center;
+}
+h5.article-date,
+h4.article-title {
+	text-align: center;
+}
+
+.my-form{
+	padding-left: 100px;
+}
